@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=./",
+    "build": "vite build --base=./ && echo nonograms.talinsharma.is-a.dev > dist/CNAME",
     "preview": "vite preview",
     "deploy": "npm run build && push-dir --dir=dist --branch=gh-pages --cleanup"
   },
