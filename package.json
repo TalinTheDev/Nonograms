@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build --base=./ && echo nonograms.talinsharma.is-a.dev > dist/CNAME",
     "preview": "vite preview",
-    "deploy": "npm run build && push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "vue": "^3.3.4"
