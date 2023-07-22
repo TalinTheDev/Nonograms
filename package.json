@@ -1,13 +1,12 @@
 {
   "name": "nonograms",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.5.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=./ && echo nonograms.talinsharma.is-a.dev > dist/CNAME",
-    "preview": "vite preview",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.3.4"
@@ -16,7 +15,6 @@
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.26",
-    "push-dir": "^0.4.1",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.0"
   }
