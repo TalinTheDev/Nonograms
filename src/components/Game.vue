@@ -172,7 +172,7 @@ else {
 
 <template>
   <div class="grid place-items-center mt-[12vh]">
-    <h1 class="text-5xl underline underline-offset-[13px] font-extrabold text-center mb-[35px]">Play Nonograms</h1>
+    <h1 class="text-5xl underline underline-offset-[13px] font-extrabold text-center mb-[35px]" @click="init(5, 5)">Play Nonograms</h1>
     <table class="table-auto border-spacing-1 border-separate">
       <thead>
         <tr>
